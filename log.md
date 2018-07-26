@@ -35,17 +35,25 @@
 ### Day 0: July 26, 2018 (Example 1)
 
 **Today's Progress**: command notes:
-Mask RCNN
+#disable touchpad command
+xinput list
+xinput disable 13/14
+
+# inference Mask RCNN
 python2 tools/infer_simple.py  --cfg configs/12_2017_baselines/e2e_faster_rcnn_R-50-FPN_2x.yaml     --output-dir demo/output/detectron-visualizations  --image-ext jpg --wts weights/model_final.pkl demo
 
+disable the touch pad
 
 
 
 **Thoughts:** 
-1. use stereo matching to identify the outdoor situation.
+1. use stereo matching to identify the outdoor situation. also can try
 2. if the object space occupation in image over threshold, give the single label.
 3. if more than 3 types of labels, defining and classify as a scene.
-   
+    3.1 count the objects, compare the size of box, calcuthe  all in door, class. 
+    3.2 define the scene.
+    3.3 interface with
+
 4. how to develop different module and integrate them.
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [Multi label classification](http://www.example.com)
