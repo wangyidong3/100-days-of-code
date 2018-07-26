@@ -55,5 +55,6 @@ disable the touch pad
     3.3 interface with
 
 4. how to develop different module and integrate them.
+5. try autoML and watch tutorial
 
 **Link to work:** [Multi label classification](http://www.example.com)
