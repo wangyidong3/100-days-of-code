@@ -3,7 +3,7 @@
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: 
 
 **Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
 
@@ -28,3 +28,24 @@
 **Link(s) to work**
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+
+
+
+
+### Day 0: July 26, 2018 (Example 1)
+
+**Today's Progress**: command notes:
+Mask RCNN
+python2 tools/infer_simple.py  --cfg configs/12_2017_baselines/e2e_faster_rcnn_R-50-FPN_2x.yaml     --output-dir demo/output/detectron-visualizations  --image-ext jpg --wts weights/model_final.pkl demo
+
+
+
+
+**Thoughts:** 
+1. use stereo matching to identify the outdoor situation.
+2. if the object space occupation in image over threshold, give the single label.
+3. if more than 3 types of labels, defining and classify as a scene.
+   
+4. how to develop different module and integrate them.
+
+**Link to work:** [Calculator App](http://www.example.com)
