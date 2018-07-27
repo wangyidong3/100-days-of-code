@@ -32,7 +32,7 @@
 
 
 
-### Day 0: July 26, 2018 (Example 1)
+### Day 0: July 26, 2018 
 
 **Today's Progress**: command notes:
 #disable touchpad command
@@ -58,3 +58,19 @@ disable the touch pad
 5. try autoML and watch tutorial
 
 **Link to work:** [Multi label classification](http://www.example.com)
+
+### Day 3: July27, 2018
+**Today's Progress**: 
+stuck on the training own data on detectron.
+1. convert dataset into /lib/datasets in json formate.
+2. change number of categories.
+3. finetune
+
+steps:
+1.    Create a COCO-like dataset
+2.    Add it to the dataset catalog (lib/datasets)
+3.    load the pre-trained model and modify the output layers
+4.    train the model using train_net.py
+5.    edit yaml for configuration.
+   
+
