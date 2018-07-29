@@ -46,12 +46,29 @@ stuck on the training own data on detectron.
 3. finetune
 
 steps:
-1.    Create a COCO-like dataset
-2.    Add it to the dataset catalog (lib/datasets)
-3.    load the pre-trained model and modify the output layers
-4.    train the model using train_net.py
-5.    edit yaml for configuration.
+
+1. Create a COCO-like dataset.
+2. Add it to the dataset catalog (lib/datasets)
+3. load the pre-trained model and modify the output layers
+4. train the model using train_net.py
+5. edit yaml for configuration.
+   
+todolist on firefox:
+
+1. auto anotation paper search.
+2. the popular label box: https://github.com/tzutalin/labelImg.git
+   seach on youtube tutorial. 
+3. annotation tool on youtube:https://www.youtube.com/watch?v=-F4V2AwSSEA
+   github: https://github.com/VisionForFuture/box-label-tool
+   manual annotation list https://en.wikipedia.org/wiki/List_of_manual_image_annotation_tools
+4. Create COCO dataset tool: https://github.com/waspinator/pycococreator/
+5. https://github.com/nightrome/cocostuffapi
+   http://cocodataset.org/#download
+6. search in chiese with detectron 训练
+7. yaml study http://www.ruanyifeng.com/blog/2016/07/yaml.html
    
 
+
 **Thoughts:** 
+
 **Link to work:** [object detection](http://www.example.com)
