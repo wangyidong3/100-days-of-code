@@ -22,7 +22,13 @@ xinput disable 13/14
 # inference Mask RCNN
 python2 tools/infer_simple.py  --cfg configs/12_2017_baselines/e2e_faster_rcnn_R-50-FPN_2x.yaml     --output-dir demo/output/detectron-visualizations  --image-ext jpg --wts weights/model_final.pkl demo
 
+python2 tools/train_net.py  --cfg configs/getting_started/tutorial_1gpu_e2e_faster_rcnn_R-50-FPN.yaml  OUTPUT_DIR demo/output/weights/detectron-output
+
+
 disable the touch pad
+
+GPU monitoring:
+watch -n 1 nvidia-smi
 
 
 **Thoughts:** 
@@ -72,3 +78,20 @@ todolist on firefox:
 **Thoughts:** 
 
 **Link to work:** [object detection](http://www.example.com)
+
+
+### Day 3: July 30, 2018
+**Today's Progress**: 
+https://github.com/shiyemin/voc2coco
+this can be used for convert annotation xml to coco Json file.
+Now start train R-CNN, only 1 image takes 2hours training time.
+aws should be applied.
+
+according keras tutorial:
+http://hellodfan.com/2017/11/08/Keras%E5%AE%9E%E7%8E%B0Mask-R-CNN/
+
+
+error for training own module, need to download coco dataset
+and then check these links:
+https://github.com/caffe2/caffe2/issues/2130
+https://github.com/facebookresearch/Detectron/issues/60
