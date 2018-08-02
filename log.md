@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 1: June 27, Monday
+### Day 0: June 27, Monday
 
 **Today's Progress**: I've gone through many exercises on FreeCodeCamp.
 
@@ -44,7 +44,7 @@ watch -n 1 nvidia-smi
 
 **Link to work:** [Multi label classification](http://www.example.com)
 
-### Day 3: July27, 2018
+### Day 1: July27, 2018
 **Today's Progress**: 
 stuck on the training own data on detectron.
 1. convert dataset into /lib/datasets in json formate.
@@ -75,12 +75,10 @@ todolist on firefox:
    
 
 
-**Thoughts:** 
-
 **Link to work:** [object detection](http://www.example.com)
 
 
-### Day 3: July 30, 2018
+### Day 2: July 30, 2018
 **Today's Progress**: 
 https://github.com/shiyemin/voc2coco
 this can be used for convert annotation xml to coco Json file.
@@ -95,3 +93,27 @@ error for training own module, need to download coco dataset
 and then check these links:
 https://github.com/caffe2/caffe2/issues/2130
 https://github.com/facebookresearch/Detectron/issues/60
+http://www.infoq.com/cn/articles/image-object-recognition-mask-rcnn
+
+### Day 3: July 31, 2018
+**Today's Progress**: 
+best for selective search
+http://jermmy.xyz/2017/05/04/2017-5-4-paper-notes-selective-search/
+
+
+### Day 4: Augest 1, 2018
+**Today's Progress**: 
+1. Disparity map to find out the sky area. check the distance and segmentation.
+2. shif mean segmentation.
+3. tried 2 programme,  show_seg and SGBM
+4. 
+   
+
+### Day 5: Augest 2, 2018
+**Today's Progress**: 
+1. stixel concept: http://www.shujubang.com/m/info.aspx?InfoId=17289
+2. wrong diretion
+
+3. 2.5D datasets:  https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2
+4. ToDO  add pythonPATH in ~/.bashrc
+   
