@@ -116,4 +116,54 @@ http://jermmy.xyz/2017/05/04/2017-5-4-paper-notes-selective-search/
 
 3. 2.5D datasets:  https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2
 4. ToDO  add pythonPATH in ~/.bashrc
-   
+
+### Day 6: Augest 3, 2018
+**Today's Progress**: 
+1. SIFT understanding: 
+https://blog.csdn.net/abcjennifer/article/details/7639681
+https://blog.csdn.net/u010807846/article/details/49660095   Very good
+
+2. texture represent: 
+3. full con
+**Term explaination**: 
+1. fine-turning: change the model and then training with small dataset.  https://www.zhihu.com/question/40850491
+2. cookbook size:  front-back ground identify. search on zhihu.
+3. de-cNN https://github.com/vdumoulin/conv_arithmetic
+4. Feature Fusion: a way of adding context information to a fully convolutional architecture for segmentation.
+5. Horizontal Height Angle (HHA) :are used for encoding the depth into three channels as follows: horizontal disparity, height above ground
+   and the angle between local surface normal and the inferred gravity direction.
+6. LSTM Code line by line explaination: https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/
+7. to run DSRG model, re-compile the caffe.  https://github.com/speedinghzl/DSRG  "Weakly-Supervised Semantic Segmentation Network with
+Deep Seeded Region Growing"
+
+7.  search CVPR2018 segmentation in github
+8.  search LSTM in zhihu
+9.  Context Encoding for Semantic Segmentation (optional)
+10. Multi-view  Self-supervised  Deep  Learning  for  6D  Pose  Estimation in  the  Amazon  Picking  Challenge (option)
+11. Semantic-Segmentation-Suite :https://github.com/GeorgeSeif/Semantic-Segmentation-Suite
+12. SIFT Meets CNN:https://arxiv.org/pdf/1608.01807.pdf
+13. A comparative study of texture measures with classification based on featured distributions 
+14. Keras recurrent tutorial  https://github.com/Vict0rSch/deep_learning/tree/master/keras/recurrent
+15. Demo for segNet  and keras segnet https://github.com/imlab-uiip/keras-segnet
+16. keras segmentation: https://github.com/divamgupta/image-segmentation-keras
+17. A survey on deep learning-based fine-grained object classification and semantic segmentation
+18. !! try first :https://github.com/ankitdhall/imageSegmentation
+### try github first
+  https://github.com/vsatyakumar/Image-Segmentation-Using-Color-and-Texture-Descriptors-with-Expectation-Maximization
+19. https://github.com/sunilvengalil/TextureDL
+https://github.com/meetshah1995/EE-702/blob/master/stereo-vision/papers/stereo_ethZ.pdf  (Opetion)
+
+20. https://github.com/TimoSaemann/ENet/tree/master/Tutorial
+21. Pyramid Stereo Matching Network (CVPR2018) https://github.com/JiaRenChang/PSMNet
+22. https://github.com/MaybeShewill-CV/sky-detector
+23. https://github.com/k29/horizon_detection
+24. https://github.com/mithi/advanced-lane-detection
+25. Disparity image segmentation for free-space detection DOI: 10.1109/ICCP.2016.7737150
+26. Vehicles Detection in Stereo Vision Based on Disparity Map Segmentation and Objects Classification (Opetion)
+27. https://palaeo-electronica.org/2002_1/light/stereo.html
+28. https://github.com/s-gupta/rcnn-depth
+29. https://github.com/s-gupta/rgbd
+30. https://github.com/robotology/segmentation/tree/master/dispBlobber
+    
+
+
