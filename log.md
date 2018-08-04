@@ -170,3 +170,15 @@ https://github.com/meetshah1995/EE-702/blob/master/stereo-vision/papers/stereo_e
 **Today's Progress**: 
 FCN with Depth
 test FCN
+RGB-D
+https://github.com/SeongjinPark/RDFNet
+https://github.com/SSAW14/STD2P
+https://github.com/bonlime/keras-deeplab-v3-plus
+
+2D FCN
+https://github.com/MarvinTeichmann/KittiSeg  which integrated  https://github.com/MarvinTeichmann/tensorflow-fcn
+https://github.com/MarvinTeichmann/MultiNet
+
+understanding cityscapes
+http://tuprints.ulb.tu-darmstadt.de/6893/1/20171023_dissertationMariusCordts.pdf
+http://openaccess.thecvf.com/content_ICCV_2017/papers/Qi_3D_Graph_Neural_ICCV_2017_paper.pdf
