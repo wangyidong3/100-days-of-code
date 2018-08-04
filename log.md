@@ -166,4 +166,7 @@ https://github.com/meetshah1995/EE-702/blob/master/stereo-vision/papers/stereo_e
 30. https://github.com/robotology/segmentation/tree/master/dispBlobber
     
 
-
+### Day 7: Augest 4, 2018
+**Today's Progress**: 
+FCN with Depth
+test FCN
