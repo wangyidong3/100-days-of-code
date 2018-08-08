@@ -182,3 +182,37 @@ https://github.com/MarvinTeichmann/MultiNet
 understanding cityscapes
 http://tuprints.ulb.tu-darmstadt.de/6893/1/20171023_dissertationMariusCordts.pdf
 http://openaccess.thecvf.com/content_ICCV_2017/papers/Qi_3D_Graph_Neural_ICCV_2017_paper.pdf
+
+
+Note for caffe compile (2 common issues):
+https://github.com/NVIDIA/DIGITS/issues/156
+https://github.com/BVLC/caffe/issues/489
+
+caffe compiled.
+
+### Day 8: Augest 7, 2018
+**Today's Progress**: 
+The project depth-map result is just so so,or say is not good.
+
+check keras version cmd:
+python -c 'import keras; print(keras.__version__)'
+python -c 'import nump;print numpy.__path__'
+
+very very good instruction for deeplab:
+https://lijiancheng0614.github.io/2018/03/13/2018_03_13_TensorFlow-DeepLab/
+
+how to preprare your own dataset
+http://hellodfan.com/2018/07/06/DeepLabv3-with-own-dataset/   (chinese: https://blog.csdn.net/u011974639/article/details/80948990)
+
+generate some label and then 
+
+从基本功开始，先看segmentation
+https://www.scipy-lectures.org/packages/scikit-image/index.html
+纹理识别
+https://blog.csdn.net/u011974639/article/details/79887573
+
+https://sthalles.github.io/deep_segmentation_network/
+https://www.zhihu.com/question/24529483   (weight decay,  optional)
+
+制作数据流程：
+https://blog.csdn.net/u010402786/article/details/72883421
