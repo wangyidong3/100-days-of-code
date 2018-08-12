@@ -197,6 +197,7 @@ The project depth-map result is just so so,or say is not good.
 check keras version cmd:
 python -c 'import keras; print(keras.__version__)'
 python -c 'import nump;print numpy.__path__'
+rm -rf .git
 
 very very good instruction for deeplab:
 https://lijiancheng0614.github.io/2018/03/13/2018_03_13_TensorFlow-DeepLab/
@@ -216,3 +217,39 @@ https://www.zhihu.com/question/24529483   (weight decay,  optional)
 
 制作数据流程：
 https://blog.csdn.net/u010402786/article/details/72883421
+
+https://blog.csdn.net/zoro_lov3/article/details/74550735
+https://blog.csdn.net/m_buddy/article/details/78667813
+https://oldpan.me/archives/image-segment-make-voc-datasets
+
+语义分割综述
+https://zhuanlan.zhihu.com/p/37801090
+
+最最最重要的视频
+https://www.bilibili.com/video/av17204303/
+
+还是要先看知乎呀。
+传统分割方法，都是基于颜色纹理的初级特征。语义分割才是2010年后出来的
+https://zhuanlan.zhihu.com/p/30732385
+
+### Day Augest 10 2018
+1. mask overlap for texture, color and disparity.
+2. prepare the  index file and TF record.
+3. add new class, include color, class name and number.
+   
+
+http://paduaresearch.cab.unipd.it/10337/1/pagnutti_giampaolo_tesi.pdf
+
+https://medium.com/nanonets/how-to-do-image-segmentation-using-deep-learning-c673cc5862ef
+
+https://zhuanlan.zhihu.com/p/25013378
+
+https://stackoverflow.com/questions/45247717/how-to-segment-the-connected-area-based-on-depth-color-in-opencv
+
+https://github.com/aleju/papers/blob/master/neural-nets/Fast_Scene_Understanding_for_Autonomous_Driving.md
+
+
+
+### Day 12 Augest 12 2018
+Note for deeplab
+https://github.com/xmojiao/deeplab_v2
