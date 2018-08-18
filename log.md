@@ -50,6 +50,8 @@ stuck on the training own data on detectron.
 1. convert dataset into /lib/datasets in json formate.
 2. change number of categories.
 3. finetune
+4. TODo : Choose a dataset, identify three questions, and analyze the data to find answers to these questions. Focus on machine learning, data visualization, and communication.
+##
 
 steps:
 
@@ -253,3 +255,131 @@ https://github.com/aleju/papers/blob/master/neural-nets/Fast_Scene_Understanding
 ### Day 12 Augest 12 2018
 Note for deeplab
 https://github.com/xmojiao/deeplab_v2
+
+https://geekcircle.org/machine-learning-interview-qa/
+https://github.com/imhuay/Interview_Notes-Chinese 
+
+http://hangzh.com/PyTorch-Encoding/experiments/segmentation.html
+
+search labelme_json_to_dataset
+https://github.com/JakobChen/LabelMe_scripts/blob/master/scripts/labelme_json_to_dataset
+
+tensorflow 数据流图解
+https://zhuanlan.zhihu.com/p/27238630
+
+
+https://meetshah1995.github.io/semantic-segmentation/deep-learning/pytorch/visdom/2017/06/01/semantic-segmentation-over-the-years.html
+https://zhuanlan.zhihu.com/p/27794982  (中文))
+
+
+jupyter notebook : tensorflow note: on pc
+note on deeplab v2
+https://github.com/xmojiao/deeplab_v2
+
+
+scene understanding 3 level:
+The construction of benchmark should have a multi-level an-
+notation, including low-level participants annotation, mid-
+level trajectory annotation and high-level relationship anno-
+tation.
+
+猎奇:
+google's robostic arm: Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning
+
+
+My plan:
+To read paper and write the thesis and report. send the basic content to patrice. the paper include <Deep Learning: A Critical Appraisal >
+
+
+Deep learning 
+For   most   problems   where   deep   learning   has   enabled transformationally  better  solutions  (vision,  speech),  we've entered diminishing returns territory in 2016-2017. 
+François Chollet, Google, author of Keras 
+December 18, 2017 
+‘Science   progresses   one   funeral   at   a   time.'   The   future depends  on  some  graduate  student  who  is  deeply  suspicious of everything I have said. 
+Geoff Hinton, grandfather of deep learning 
+September 15, 2017 
+
+Limits :
+Deep learning thus far is data hungry .
+Deep learning thus far is shallow and has limited capacity for transfer .
+Deep learning thus far has no natural way to deal with hierarchical structure .
+Deep learning thus far has struggled with open-ended inference .
+Deep learning thus far is not sufficiently transparent .
+Deep learning thus far has not been well integrated with prior knowledge .
+Deep learning thus far cannot inherently distinguish causation from correlation .
+Deep learning presumes a largely stable world, in ways that may be problematic .
+Deep learning thus far works well as an approximation, but its answers often cannot be fully trusted .
+Deep learning thus far is difficult to engineer with.
+
+
+Unsupervised learning.
+Symbol-manipulation, and the need for hybrid models.
+More insight from cognitive and developmental psychology .
+Bolder challenges
+
+
+Notes:
+Stixels are specific to street scenes. They exploit prior information and the typical geometric layout to
+yield an accurate segmentation.
+
+classic process:
+1. computation of bottom-up image segments. eg rely on such superpixels but computed at multiple scales to retrieve a set of overlapping segments.
+2. feature descriptors for the bottom-up image regions are computed in order to facilitate their classification into the
+semantic classes. The feature extraction step is typically split into two parts.
+
+First, one or multiple pixel-level feature representations
+such as textons (Malik et al., 2001), SIFT (Lowe, 2004),
+
+Second, these vectors are pooled over all pixels within the region in order to ob-
+tain a fixed length, compact, and discriminative descriptor of the re-
+gion.
+3. the region descriptors are classified into the semantic classes of interest by leveraging standard classifiers. Eg. SVM, KNN, Adaboost
+4. the final pixel-level labeling is inferred.
+
+Deep learning:
+dilated convolutions that can circumvent the downscaling in
+the network altogether while maintaining its receptive field, which
+is important for context knowledge.
+
+The CRF can be simply appended to the network
+as an individual processing block
+
+
+Only a few works have focused on efficient semantic labeling for
+real-time autonomous driving applications.
+
+
+Typical outdoor scenes share a common
+layered structure of a ground surface at the bottom, the sky at the top,
+and objects in between, which is modeled by Felzenszwalb and Vek-
+sler, 2010; M.-Y. Liu et al.,
+A. Gupta et al., 2010 model the environment via 3D
+geometric blocks.
+Focusing on the dynamic objects in street scenes,
+i.e. mainly vehicles and pedestrians, prior work exploits that these
+objects are typically located on a common ground plane at various
+1718
+related work
+distances. This knowledge can be used to predominantly improve
+accuracy
+
+
+Indoor scenes typically impose less overall
+constraints, but nevertheless exhibit a common layout that is consid-
+ered by the models of D. Lin et al., 2013
+
+
+https://stackoverflow.com/questions/45741254/importerror-no-module-named-utils?rq=1
+
+
+
+correct way to install mxnet
+https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/mxnet/
+
+
+    ImportError: No module named parse    
+    solution: The app you're trying to run requires Python 3, and you're trying to run it on Python 2.
+
+    mportError: numpy.core.multiarray failed to import
+    solution: 1. When I ran into this, it was because I had another version of numpy installed on my machine in a different location -- I had to uninstall the other (older) version.
+    2. Therefore:  pip install -U numpy
