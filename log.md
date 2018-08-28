@@ -30,6 +30,9 @@ disable the touch pad
 GPU monitoring:
 watch -n 1 nvidia-smi
 
+check tensorflow version
+python3 -c 'import tensorflow as tf; print(tf.__version__)'  # for Python 3
+python -c 'import tensorflow as tf; print(tf.__version__)'  # for Python 2
 
 **Thoughts:** 
 1. use stereo matching to identify the outdoor situation. also can try
@@ -234,7 +237,7 @@ https://www.bilibili.com/video/av17204303/
 传统分割方法，都是基于颜色纹理的初级特征。语义分割才是2010年后出来的
 https://zhuanlan.zhihu.com/p/30732385
 
-### Day Augest 10 2018
+### Day9 Augest 10 2018
 1. mask overlap for texture, color and disparity.
 2. prepare the  index file and TF record.
 3. add new class, include color, class name and number.
@@ -252,7 +255,7 @@ https://github.com/aleju/papers/blob/master/neural-nets/Fast_Scene_Understanding
 
 
 
-### Day 12 Augest 12 2018
+### Day 10 Augest 12 2018
 Note for deeplab
 https://github.com/xmojiao/deeplab_v2
 
@@ -383,3 +386,23 @@ https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/mxnet/
     mportError: numpy.core.multiarray failed to import
     solution: 1. When I ran into this, it was because I had another version of numpy installed on my machine in a different location -- I had to uninstall the other (older) version.
     2. Therefore:  pip install -U numpy
+
+### Day13 Augest 20, 2018
+1. Simple does it weakly suprivised segmentation:  works! but training 9 hrs just finished 16%. so it need 50+ hours totally.
+2. github: interactive segmentation RGBD:  PyQt5/QtGui.so: undefined symbol: PySlice_AdjustIndices  好像也是没空间。 (pytorch :())
+3. github: Rednet: out of memory
+4. BDWSS (MXNet):  out of memory
+5. modular_semantic_segmentation: lack of data 
+
+
+### Day 14
+1. sensor fusion，就是用两套传感器组件同时测量一个数值，然后两个测量结果A跟B进行一下加权平均得到最终的结果(Fusion这个词是融合的意思，可以理解为A、B结果的融合)。为什么要使用fusion技术呢？就是为了得到更精确的“结果”。
+2. for sudo input in jupyter notebook
+   https://stackoverflow.com/questions/44996933/using-sudo-inside-jupyter-notebooks-cell
+
+
+modular_semantic_segmentation failed
+1. missing disparity map file, right_image for cityscapes dataset
+2. missing npy file for synthesis RAND dataset
+
+Now try RedNet again
