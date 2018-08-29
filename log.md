@@ -406,3 +406,37 @@ modular_semantic_segmentation failed
 2. missing npy file for synthesis RAND dataset
 
 Now try RedNet again
+
+
+### Day 15
+it tooks long time to perform the segmentaiton with depth map.
+firstly, I tried 2D 
+several paper and relative solutions are tried.  
+the network based on Fully con
+
+
+The experiment is for only 1 class: sky. After manually make the segmentation label for 
+FC-DenseNet56(2016):          500
+
+MobileUNet(2017):             230
+DeepLabV3_plus-Res50(2018):   215
+
+ Encoder-Decoder:       
+ RefineNet-Res50
+ PSPNet-Res50  (2016)         512
+ ApapNet(2018)
+If training  with public datasets CamVid with 32 classes, the time will take much longer. there is the results.
+
+
+for this step, i chose the fastest solution.
+
+
+secordly, I tried to train the disparity map.
+1. I tried to training RGB image for segmentation. 
+   
+2. depth map fusion require more on hardware. Several solution failed during the training because of the GPU memory.
+   so review the backbone with fastest
+3. layer should be limited in 50.
+4. interactive sematic  segmentation
+5. currently beyas / dirichlet fusion are under testing. I will review the result.
+
