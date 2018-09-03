@@ -440,3 +440,6 @@ secordly, I tried to train the disparity map.
 4. interactive sematic  segmentation
 5. currently beyas / dirichlet fusion are under testing. I will review the result.
 
+### Day 16 
+Using Flask to serve a machine learning model as a RESTful webservice
+https://www.youtube.com/watch?v=s-i6nzXQF3g 
