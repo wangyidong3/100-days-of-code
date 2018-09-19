@@ -407,7 +407,12 @@ modular_semantic_segmentation failed
 
 Now try RedNet again
 
+<<<<<<< HEAD
 ### Day15
+=======
+
+### Day 15
+>>>>>>> 0f07eb47ccd3e153697a8a2acd5b8c6478931e90
 it tooks long time to perform the segmentaiton with depth map.
 firstly, I tried 2D 
 several paper and relative solutions are tried.  
@@ -431,8 +436,12 @@ for this step, i chose the fastest solution.
 
 
 secordly, I tried to train the disparity map.
+<<<<<<< HEAD
 1. I tried to training 
    set 
+=======
+1. I tried to training RGB image for segmentation. 
+>>>>>>> 0f07eb47ccd3e153697a8a2acd5b8c6478931e90
    
 2. depth map fusion require more on hardware. Several solution failed during the training because of the GPU memory.
    so review the backbone with fastest
@@ -440,6 +449,7 @@ secordly, I tried to train the disparity map.
 4. interactive sematic  segmentation
 5. currently beyas / dirichlet fusion are under testing. I will review the result.
 
+<<<<<<< HEAD
 
 ### Day 16 
 For Deployment:
@@ -464,3 +474,8 @@ Deployment:
 2. predictions[key] = deeplab.predict(images)
 3. change class from CamVid to Cityscapes  (12 to 30)
 
+=======
+### Day 16 
+Using Flask to serve a machine learning model as a RESTful webservice
+https://www.youtube.com/watch?v=s-i6nzXQF3g 
+>>>>>>> 0f07eb47ccd3e153697a8a2acd5b8c6478931e90
