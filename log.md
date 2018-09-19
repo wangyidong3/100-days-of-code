@@ -406,3 +406,61 @@ modular_semantic_segmentation failed
 2. missing npy file for synthesis RAND dataset
 
 Now try RedNet again
+
+### Day15
+it tooks long time to perform the segmentaiton with depth map.
+firstly, I tried 2D 
+several paper and relative solutions are tried.  
+the network based on Fully con
+
+
+The experiment is for only 1 class: sky. After manually make the segmentation label for 
+FC-DenseNet56(2016):          500
+
+MobileUNet(2017):             230
+DeepLabV3_plus-Res50(2018):   215
+
+ Encoder-Decoder:       
+ RefineNet-Res50
+ PSPNet-Res50  (2016)         512
+ ApapNet(2018)
+If training  with public datasets CamVid with 32 classes, the time will take much longer. there is the results.
+
+
+for this step, i chose the fastest solution.
+
+
+secordly, I tried to train the disparity map.
+1. I tried to training 
+   set 
+   
+2. depth map fusion require more on hardware. Several solution failed during the training because of the GPU memory.
+   so review the backbone with fastest
+3. layer should be limited in 50.
+4. interactive sematic  segmentation
+5. currently beyas / dirichlet fusion are under testing. I will review the result.
+
+
+### Day 16 
+For Deployment:
+1. finished get start tutorial part1-5
+    1. install docker-machine
+    2. insatll virtualbox
+    3. stuck with
+2. waiting for aws account recovery
+
+### Day 17
+Deployment:
+1.  Docker get-started
+2.  tensorflow serving
+   1. 我本来以为serving可以直接serve script，然后在线训练，没想到看了一圈搭了一次之后发现是将已训练好的模型进行部署，然后根据用户输入的数据返回结果。跟我想的不太一样，而且serving现在还没封装好，并不是很容易搭建，还有很多坑，
+   2. 
+3.  CloudFoundry + flask + pickle
+4.  aws sageMaker
+5.  
+
+### Day 18
+1. how to restore pre-trained checkpoint 
+2. predictions[key] = deeplab.predict(images)
+3. change class from CamVid to Cityscapes  (12 to 30)
+
