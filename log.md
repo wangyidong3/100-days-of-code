@@ -479,3 +479,14 @@ Deployment:
 Using Flask to serve a machine learning model as a RESTful webservice
 https://www.youtube.com/watch?v=s-i6nzXQF3g 
 >>>>>>> 0f07eb47ccd3e153697a8a2acd5b8c6478931e90
+
+
+### Day 17 
+Todolist:
+1. cs294 深度强化学习  哔哩哔哩
+https://www.bilibili.com/video/av20957290/?spm_id_from=333.788.reco_list.26
+2. EOS youtube (hackathon, dapp)
+3. 新指数领域  5G, 3D, IoT, 
+4. ADHD appointment/book
+5. dapp in 12 hours/c++/benben
+6. make appointment with laomao, 超级君.
