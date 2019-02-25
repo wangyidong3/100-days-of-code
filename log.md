@@ -201,20 +201,20 @@ The project depth-map result is just so so,or say is not good.
 
 check keras version cmd:
 python -c 'import keras; print(keras.__version__)'
-python -c 'import nump;print numpy.__path__'
+python -c 'import numpy;print numpy.__path__'
 rm -rf .git
 
 very very good instruction for deeplab:
 https://lijiancheng0614.github.io/2018/03/13/2018_03_13_TensorFlow-DeepLab/
 
-how to preprare your own dataset
+how to prepare your own dataset
 http://hellodfan.com/2018/07/06/DeepLabv3-with-own-dataset/   (chinese: https://blog.csdn.net/u011974639/article/details/80948990)
 
 generate some label and then 
 
 从基本功开始，先看segmentation
 https://www.scipy-lectures.org/packages/scikit-image/index.html
-纹理识别
+Texture recognition
 https://blog.csdn.net/u011974639/article/details/79887573
 
 https://sthalles.github.io/deep_segmentation_network/
@@ -227,14 +227,14 @@ https://blog.csdn.net/zoro_lov3/article/details/74550735
 https://blog.csdn.net/m_buddy/article/details/78667813
 https://oldpan.me/archives/image-segment-make-voc-datasets
 
-语义分割综述
+Semantic Segmentation review
 https://zhuanlan.zhihu.com/p/37801090
 
-最最最重要的视频
+cs231n Stanford 
 https://www.bilibili.com/video/av17204303/
 
-还是要先看知乎呀。
-传统分割方法，都是基于颜色纹理的初级特征。语义分割才是2010年后出来的
+The conventional approaches of feature extraction are based on color and texture. The semantic segmentation was widely applied after 2010.
+
 https://zhuanlan.zhihu.com/p/30732385
 
 ### Day9 Augest 10 2018
@@ -286,7 +286,7 @@ notation, including low-level participants annotation, mid-
 level trajectory annotation and high-level relationship anno-
 tation.
 
-猎奇:
+### Interesing Project
 google's robostic arm: Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning
 
 
@@ -352,28 +352,10 @@ Only a few works have focused on efficient semantic labeling for
 real-time autonomous driving applications.
 
 
-Typical outdoor scenes share a common
-layered structure of a ground surface at the bottom, the sky at the top,
-and objects in between, which is modeled by Felzenszwalb and Vek-
-sler, 2010; M.-Y. Liu et al.,
-A. Gupta et al., 2010 model the environment via 3D
-geometric blocks.
-Focusing on the dynamic objects in street scenes,
-i.e. mainly vehicles and pedestrians, prior work exploits that these
-objects are typically located on a common ground plane at various
-1718
-related work
-distances. This knowledge can be used to predominantly improve
-accuracy
-
-
-Indoor scenes typically impose less overall
-constraints, but nevertheless exhibit a common layout that is consid-
-ered by the models of D. Lin et al., 2013
+Indoor scenes typically impose less overall constraints, but nevertheless exhibit a common layout that is considered by the models of D. Lin et al., 2013
 
 
 https://stackoverflow.com/questions/45741254/importerror-no-module-named-utils?rq=1
-
 
 
 correct way to install mxnet
@@ -385,7 +367,7 @@ https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/mxnet/
 
     mportError: numpy.core.multiarray failed to import
     solution: 1. When I ran into this, it was because I had another version of numpy installed on my machine in a different location -- I had to uninstall the other (older) version.
-    2. Therefore:  pip install -U numpy
+    1. Therefore:  pip install -U numpy
 
 ### Day13 Augest 20, 2018
 1. Simple does it weakly suprivised segmentation:  works! but training 9 hrs just finished 16%. so it need 50+ hours totally.
@@ -453,7 +435,7 @@ For Deployment:
 Deployment:
 1.  Docker get-started
 2.  tensorflow serving
-   1. 我本来以为serving可以直接serve script，然后在线训练，没想到看了一圈搭了一次之后发现是将已训练好的模型进行部署，然后根据用户输入的数据返回结果。跟我想的不太一样，而且serving现在还没封装好，并不是很容易搭建，还有很多坑，
+   1. I thought serving can be used directly with serve script，then start training. but after building the system, I found it deployed the trained model and return the feedback of the user input. It's different with what I expected. Meanwhile, the interface and libs are imcompatible. still lots of bugs. 很多坑，
    2. 
 3.  CloudFoundry + flask + pickle
 4.  aws sageMaker
@@ -464,3 +446,31 @@ Deployment:
 2. predictions[key] = deeplab.predict(images)
 3. change class from CamVid to Cityscapes  (12 to 30)
 
+
+### Day 19
+Real time segmentation
+1. https://averdones.github.io/real-time-semantic-image-segmentation-with-deeplab-in-tensorflow/
+http://www.scikit-video.org/stable/
+
+2. BiSeNet on suit and  https://arxiv.org/pdf/1808.00897.pdf
+3. Coda forklifts class training
+
+
+### Day 20
+1. Basic grammar learning for kotlin.
+2. snpe c++
+3. Coda breaking rule fuctions: add centre retangle and build intersection.
+
+
+### Day 21
+1. Design pattern review. 
+2. basic review of slam
+3. leetcode finished: reverse intergrate. 
+
+
+### Day 22
+**Today's Progress**: 
+
+**Thoughts** 
+
+**Link(s) to work**
