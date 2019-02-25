@@ -431,6 +431,9 @@ For Deployment:
     3. stuck with
 2. waiting for aws account recovery
 
+3. Using Flask to serve a machine learning model as a RESTful webservice
+https://www.youtube.com/watch?v=s-i6nzXQF3g 
+
 ### Day 17
 Deployment:
 1.  Docker get-started
@@ -446,7 +449,6 @@ Deployment:
 2. predictions[key] = deeplab.predict(images)
 3. change class from CamVid to Cityscapes  (12 to 30)
 
-<<<<<<< HEAD
 
 ### Day 19
 Real time segmentation
@@ -470,26 +472,10 @@ http://www.scikit-video.org/stable/
 
 
 ### Day 22
-**Today's Progress**: 
 
-**Thoughts** 
-
-**Link(s) to work**
-=======
-=======
-### Day 16 
-Using Flask to serve a machine learning model as a RESTful webservice
-https://www.youtube.com/watch?v=s-i6nzXQF3g 
->>>>>>> 0f07eb47ccd3e153697a8a2acd5b8c6478931e90
-
-
-### Day 17 
-Todolist:
-1. cs294 深度强化学习  哔哩哔哩
+1. cs294 deep reinforcement learning on bilibili
 https://www.bilibili.com/video/av20957290/?spm_id_from=333.788.reco_list.26
 2. EOS youtube (hackathon, dapp)
-3. 新指数领域  5G, 3D, IoT, 
-4. ADHD appointment/book
-5. dapp in 12 hours/c++/benben
-6. make appointment with laomao, 超级君.
->>>>>>> 60f0b320b43578c3103b3c5117595e79c187f900
+3. ADHD appointment/book
+4. dapp in 12 hours/c++/benben
+5. make appointment with laomao
